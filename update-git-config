@@ -1,0 +1,7 @@
+#!/bin/bash
+eval $(ssh-agent)
+ssh-add
+cd ~/printer_data/
+git add .
+git commit -m "Updated printer config"
+git push
