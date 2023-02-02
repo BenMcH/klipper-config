@@ -1,0 +1,11 @@
+backup
+certs
+comms
+database
+gcodes
+logs
+systemd
+config/printer-*.cfg
+*.bkp
+*.swp
+
